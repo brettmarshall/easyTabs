@@ -1,0 +1,255 @@
+/* CSS BoilerPlate */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+p   {
+	font-size: 10px;
+	line-height: 15px;
+}
+
+p   { font-size:1.4em; line-height:1.5em; color:#000; }
+
+h1,h2,h3,h4,h5,h6   { font-size:10px; }
+
+h1  { font-size:3em; }
+
+h2  { font-size:2.8em; }
+
+h3  { font-size:2.4em; }
+
+h4  { font-size:2em; }
+
+h5  { font-size:1.8em; }
+
+h6  { font-size:1.6em; }
+
+/* Custom Fonts */
+
+/*
+@font-face {
+    font-family: 'Type Here';
+    src: url('fonts/Type Here-webfont.eot');
+    src: url('fonts/Type Here-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Type Here-webfont.woff') format('woff'),
+         url('fonts/Type Here-webfont.ttf') format('truetype'),
+         url('fonts/Type Here-webfont.svg#Type Here') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} via http://www.fontsquirrel.com */
+
+
+.clear  { clear:both }
+
+
+.pageWrapper	{ height: auto; width: 100%; padding: 0; margin: 0; }
+
+.wrapper	{ width: 960px; display: block; margin: 0 auto; padding: 0; position: relative; }
+
+.one	{ width: 4.33%; padding: 2%; display: block; float: left; margin: 0; }
+.two	{ width: 12.66%; padding: 2%; display: block; float: left; margin: 0; }
+.three	{ width: 21%; padding: 2%; display: block; float: left; margin: 0; }
+.four	{ width: 29.33%; padding: 2%; display: block; float: left; margin: 0;}
+.five	{ width: 37.66%; padding: 2%; display: block; float: left; margin: 0; }
+.six	{ width: 46%; padding: 2%; display: block; float: left; margin: 0; }
+.seven	{ width: 54.33%; padding: 2%; display: block; float: left; margin: 0; }
+.eight	{ width: 62.66%; padding: 2%; display: block; float: left; margin: 0; }
+.nine	{ width: 71%; padding: 2%; display: block; float: left; margin: 0; }
+.ten	{ width: 79.33%; padding: 2%; display: block; float: left; margin: 0; }
+.eleven	{ width: 87.66%; padding: 2%; display: block; float: left; margin: 0; }
+.twelve	{ width: 96%; padding: 2%; display: block; float: left; margin: 0; }
+
+.offsetOne	{ margin-right: 4.33%; }
+.offsetTwo	{ margin-right: 12.66%; }
+.offsetThree	{ margin-right: 21%; }
+.offsetFour	{ margin-right: 29.33%; }
+.offsetFive	{ margin-right: 37.66%; }
+.offsetSix	{ margin-right: 46%; }
+.offsetSeven	{ margin-right: 54.33%; }
+.offsetEight	{ margin-right: 62.66%; }
+.offsetNine	{ margin-right: 71%; }
+.offsetTen	{ margin-right: 79.33%; }
+.offsetEleven	{ margin-right: 87.66%; }
+.offsetTwelve	{ margin-right: 96%; }
+
+.mandTOnly	{ display: none; }
+.dntOnly	{ display:block; }
+.mOnly	{ display:none; }
+
+/* End of CSS BoilerPlate */
+
+body	{
+	background: #ddd;
+}
+
+/* ==================================== Essential for the Plugin ====================================*/
+#et-container	{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: inset 0px 0px 8px #000, 0px 0px 2px #fff;
+	-moz-box-shadow: inset 0px 0px 8px rgba(0, 0, 0, .4), 0px 0px 2px #fff;
+	margin: 20px auto 0px auto;
+	display: block;
+	float: none;
+	border-radius: 8px;
+	-moz-transition: all .9s linear;
+	-webkit-transition: all .9s linear;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+#et-tabs	{
+	list-style-type: none;
+	width: 99%;
+	display: block;
+	float: left;
+	margin: 3% 0;
+	padding: 0;
+	font-family: 'Doppio One', sans-serif;
+}
+
+#et-tabs li	{
+	width: 29.3%;
+	padding: 1%;
+	text-align: center;
+	float: left;
+	background: #69F;
+	cursor: pointer;
+	-moz-transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	border-right: 1px solid #fff;
+}
+
+#et-tabs li:hover	{
+	color: #fff;
+}
+
+.first	{
+	box-shadow: inset -1px 0px 0px #000;
+}
+
+.et-last	{
+	border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+}
+
+#et-content	{
+	width: 90%;
+	font-family: 'Droid Sans', sans-serif;
+	padding: 5%;
+}
+
+#et-content p	{
+	float: left;
+	text-align: left;
+	width: 65%;
+	margin-right: 5%;
+}
+
+#et-content img	{
+	float: right;
+	display: block;
+	width: 30%;
+}
+
+#et-content li	{
+	text-align:center;
+}
+
+.easyTabs-current	{
+	background-color: #333 !important;
+	color: #fff;
+}
+
+
+/* ==================================== End of Essential for the Plugin Code =======================================*/
+
+h1 span	{ font-size: .5em; }
+
+
+h1, h2, h3, h4, h5, h6	{ font-family: 'Doppio One', sans-serif; }
+
+h1	{ font-family: 'Lobster', cursive; }
+
+.wrapper	{ padding-top: 40px; }
+
+#example	{ font-family: 'Droid Sans', sans-serif; }
+
+p	{ font-family: 'Droid Sans', sans-serif; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>easyTabs.js | A Simple Tabs Plugin</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="shortcut icon"  href="favicon.ico">
+        <link rel="apple-touch-icon" href="images/custom_icon.jpg"/>
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- Google fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Doppio+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->             
+        <!--  Modernizr enables HTML5 elements & feature detects -->
+        <script src="js/modernizr-2.0.6.min.js"></script>
+        
+    </head>
+    <body>
+    <div class="pageWrapper">
+        <div class="wrapper">
+            <h1>easyTabs<span>.js</span></h1>
+            <div id="et-container">
+                <ul id="et-tabs">
+                    <li>How to Install</li>
+                    <li>How to Use</li>
+                    <li class="et-last">Configuration</li>
+                    
+                </ul>
+                <ul id="et-content">
+                    <li>
+                      <p>Curabitur blandit tempus porttitor. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur.</p>
+                      <img src='images/one.png' />
+                      <div class="clear"></div>
+                    </li>
+                    <li>
+                      <p>
+Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+<img src='images/two.png' />
+					<div class="clear"></div>
+                    </li>
+                    <li>
+
+                     <p> Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                     <img src='images/three.png' />
+                     <div class="clear"></div>
+                    </li>
+                 
+                </ul>
+            </div>
+            
+
+        </div><!-- end of wrapper -->
+    </div>
+    <!-- Content Goes Here -->
+    
+    
+		<!-- jQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="js/easyTabs-1.3.min.js"></script>       
+        
+        <script type='text/javascript'>
+        
+        jQuery(document).ready(function($)	{
+        	$('#et-tabs').easyTabs({ 'speed': 300 });
+        });
+        
+        </script>        
+    </body>
+</html>
